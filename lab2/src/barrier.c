@@ -1,4 +1,4 @@
-#include <abc.h>
+#include <barrier.h>
 
 int pthread_barrier_init(pthread_barrier_t *barrier, const pthread_barrierattr_t *attr, unsigned int count)
 {
