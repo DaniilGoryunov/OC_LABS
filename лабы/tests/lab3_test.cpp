@@ -9,6 +9,8 @@ void TestParent(const std::string &src, const std::string &check) {
 
     srcStream << filename << " " << src;
 
+    (getenv("PATH_TO_CHILD"), srcStream);
+
     std::ifstream in(filename);
     std::string res;
     std::getline(in, res);
